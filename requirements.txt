@@ -9,6 +9,7 @@ pydantic==2.10.4
 python_igraph==0.11.8
 tenacity==8.5.0
 tiktoken==0.7.0
+voyageai>=0.3.5
 nest_asyncio
 numpy
 scipy
