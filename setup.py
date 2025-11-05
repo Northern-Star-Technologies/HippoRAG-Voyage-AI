@@ -19,7 +19,7 @@ setuptools.setup(
         "torch==2.5.1",
         "transformers==4.45.2",
         "vllm==0.6.6.post1",
-        "openai==1.91.1",
+        "openai>=1.0.0",
         "litellm==1.73.1",
         "gritlm==1.0.2",
         "networkx==3.4.2",
@@ -27,6 +27,7 @@ setuptools.setup(
         "tiktoken==0.7.0",
         "pydantic==2.10.4",
         "tenacity==8.5.0",
+        "voyageai>=0.3.5",
         "einops", # No version specified
         "tqdm", # No version specified
         "boto3", # No version specified
